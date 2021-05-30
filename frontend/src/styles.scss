@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$theme-font: 'Inter', sans-serif;
+$text-color: #0d0d0d;
+
+* {
+  margin: 0;
+  position: relative;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  font-size: 62.5%;
+  font-family: $theme-font;
+  color: $text-color;
+  background-color: #fafafa;
+}
+
+h1 {
+  font-size: 3.75em;
+  font-weight: bold;
+}

@@ -1,0 +1,7 @@
+@import '../../../mixins.scss';
+
+.dashboard-tags-bar {
+  width: 100%;
+
+  @include flex-parent(row, wrap, flex-start);
+}

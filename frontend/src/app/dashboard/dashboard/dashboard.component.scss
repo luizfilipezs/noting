@@ -1,0 +1,35 @@
+@import '../../../mixins.scss';
+
+.dashboard-wrapper {
+    width: calc(100% - 16em);
+    height: calc(100vh - 9em);
+    padding: 9em 8em 0 8em;
+}
+
+.dashboard-header {
+    width: 100%;
+    margin-bottom: 5em;
+
+    @include flex-parent(row, nowrap, space-between, center);
+
+    .dashboard-header-icon {
+        cursor: pointer;
+
+        @include transition(150ms);
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+
+    .theme-switcher-icon {
+        margin-left: auto;
+        margin-right: 2.5em;
+
+        @include square(3.25em, true);
+    }
+
+    .add-note-icon {
+        @include square(3.5em, true);
+    }
+}

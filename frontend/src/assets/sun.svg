@@ -1,0 +1,19 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title fill="#fafafa">Layer 1</title>
+  <circle fill="#fafafa" id="svg_1" r="4.5" cy="8.007246" cx="7.992754"/>
+  <rect fill="#fafafa" y="0.507246" id="svg_2" x="7.492754" width="1" height="2"/>
+  <rect fill="#fafafa" id="svg_3" y="13.507246" x="7.492754" width="1" height="2"/>
+  <rect fill="#fafafa" id="svg_4" y="7.507246" x="13.492754" width="2" height="1"/>
+  <rect fill="#fafafa" id="svg_5" y="7.507246" x="0.492754" width="2" height="1"/>
+  <rect fill="#fafafa" id="svg_6" y="11.096" x="11.87864" width="1" transform="matrix(0.7071,-0.7071,0.7071,0.7071,-4.7175,12.8033) " height="2"/>
+  <rect fill="#fafafa" id="svg_7" y="1.904" x="2.68664" width="1" transform="matrix(0.7071,-0.7071,0.7071,0.7071,-0.9099,3.6109) " height="2"/>
+  <rect fill="#fafafa" id="svg_8" y="11.596" x="2.18664" width="2" transform="matrix(0.7071,-0.7071,0.7071,0.7071,-7.4099,6.3033) " height="1"/>
+  <rect fill="#fafafa" id="svg_9" y="2.404" x="11.37864" width="2" transform="matrix(0.7071,-0.7071,0.7071,0.7071,1.7823,10.1107) " height="1"/>
+ </g>
+</svg>

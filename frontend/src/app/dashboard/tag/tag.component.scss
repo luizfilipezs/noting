@@ -1,0 +1,31 @@
+@import '../../../mixins.scss';
+
+$tagColor: rgb(122, 122, 122);
+
+.dashboard-tag {
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 0.75em 2.5em;
+  cursor: pointer;
+  background-color: rgba($tagColor, 0.25);
+
+  @include transition(500ms ease-out);
+  @include border-radius(1.5em);
+
+  span {
+    font-size: 1.6em;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 600;
+    color: $tagColor;
+  }
+
+  &:hover {
+    background-color: rgba($tagColor, 1);
+
+    span {
+      color: #fafafa;
+    }
+  }
+}
